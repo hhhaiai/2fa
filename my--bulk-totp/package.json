@@ -1,0 +1,16 @@
+{
+  "name": "offline-authenticator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "完全离线的 TOTP 查询、管理与迁移工具",
+  "scripts": {
+    "test:source": "node tests/run-tests.js",
+    "build": "node tools/build.js",
+    "test:dist": "node tests/run-dist-tests.js",
+    "verify:dist": "node tools/verify-dist.js",
+    "check": "npm run test:source && npm run build && npm run test:dist && npm run verify:dist"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

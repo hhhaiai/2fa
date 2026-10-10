@@ -1,0 +1,11 @@
+THIRD-PARTY LICENSES
+
+qrcode-generator 1.4.4
+Copyright (c) 2009 Kazuhiko Arase
+License: MIT
+https://github.com/kazuhikoarase/qrcode-generator
+
+jsQR 1.4.0
+Copyright (c) 2018 Cozmo Inc.
+License: Apache-2.0
+https://github.com/cozmo/jsQR
